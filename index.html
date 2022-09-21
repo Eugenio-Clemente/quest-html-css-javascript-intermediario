@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DESAFIO HTML | CSS | JAVASCRIPT INTERMERDIÁRIO</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="informacoes">
+          <h1 class="pergunta">FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+          <p class="descricao-da-pergunta">
+            caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem
+            e entraremos em contato em menos de 24h.
+          </p>
+        </div>
+
+        <form class="formulario" id="formulario">
+        <input type="text" class="erro-no-campo" id="campo-input" placeholder="Nome completo*">
+        <span class="campo-obrigadorio">Campos obrigatórios</span>
+        <input type="email" id="campo-input" class="erro-no-campo" placeholder="Email*"/>
+        <span class="campo-obrigadorio" >Campos obrigatórios</span>
+        <input type="tel" class="erro-no-campo" id="campo-input" placeholder="Telefone*"/>
+         <span class="campo-obrigadorio">Campos obrigatórios</span>
+         <input type="text" class="erro-no-campo" id="campo-input" placeholder="Mensagem*"/>
+         <span class="campo-obrigadorio">Campos obrigatórios</span>
+          
+          <span class="campo-span">*Campos obrigatórios</span>
+           
+          <button type="submit" id="button">Enviar</button>
+        </form>
+      </div>
+    </main>
+    <script src="./src/js/formulario.js"></script>
+  </body>
+</html>

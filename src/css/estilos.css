@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+main {
+  width: 100vw;
+  height: 100vh; 
+  background: url(../imagens/Fundo.jpg);
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .informacoes {
+  margin: 0 72px;
+}
+
+.container .pergunta {
+  width: 287.25px;
+  height: 46px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff;
+  margin: 11px 0;
+}
+
+.container .descricao-da-pergunta {
+  width: 300px;
+  height: 54px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.container .formulario {
+  width: 340px;
+  height: 390px;
+  padding: 15px;
+  background: #ffffff;
+  position: relative;
+}
+
+.container .formulario input {
+  width: 298.01px;
+  height: 35.11px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin: 8px 0;
+}
+
+.container .formulario .erro-no-campo.erro-na-verificacao {
+  border: 1px solid #f52e2e;
+}
+
+.container .formulario input:last-of-type {
+  width: 298.01px;
+  height: 85px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+
+}
+
+.container .formulario input::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #a8a8a8;
+  padding: 10px;
+}
+
+.container .formulario .erro-no-campo.verificado {
+  border: 1px solid #00c22b;
+}
+
+.container .formulario .campo-obrigadorio {
+  display: none;
+}
+
+.container .formulario .campo-obrigadorio.erro-na-verificacao {
+  display: block;
+  width: 88px;
+  height: 9px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 9px;
+
+  color: #f52e2e;
+}
+
+.container .formulario .campo-span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.container .formulario #button {
+ position: absolute;
+  width: 298.01px;
+  height: 41.13px;
+
+  background: #3ccc87;
+  border-radius: 5px;
+  margin: 10px 0;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  border: none;
+  color: #ffffff;
+
+  left: 18px;
+  bottom: 10px;
+}

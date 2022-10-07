@@ -61,6 +61,7 @@ main {
   border: 1px solid #000000;
   border-radius: 5px;
   margin: 8px 0;
+  padding: 10px 12px;
 }
 
 .container .formulario .erro-no-campo.erro-na-verificacao {

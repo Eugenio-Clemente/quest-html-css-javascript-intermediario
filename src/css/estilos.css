@@ -140,3 +140,7 @@ main {
   left: 18px;
   bottom: 10px;
 }
+
+.container .formulario #button:hover{
+  cursor: pointer;
+}
